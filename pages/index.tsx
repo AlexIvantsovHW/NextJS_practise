@@ -8,9 +8,13 @@ import { getLayout } from "@/components/layouts/Layouts";
 const inter = Inter({ subsets: ["latin"] });
 
  function Home() {
+  const logoutHandler=()=>{
+    alert('Logout')
+  }
   return (
     <div>
       <h1>Main Page from lexter!!</h1>
+      <button onClick={logoutHandler}>Logout</button>
     </div>
   );
 }
