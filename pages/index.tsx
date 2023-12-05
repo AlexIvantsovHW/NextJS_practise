@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
  function Home() {
   return (
     <div>
-      <h1>Main Page</h1>
+      <h1>Main Page from lexter!</h1>
     </div>
   );
 }
